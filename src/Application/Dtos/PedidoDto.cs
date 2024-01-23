@@ -9,5 +9,6 @@ public sealed record  PedidoDto
     public DateTime DataPedido { get; set; }
     public decimal Valor { get; set; }
     public string Status { get; set; }
+    public ClienteDto? Cliente { get; set; }
     public IEnumerable<ItemPedidoDto> ItensPedido { get; set; }
 }
