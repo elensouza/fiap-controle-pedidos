@@ -29,11 +29,11 @@
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/bin/Debug/net7.0/Domain.Core.runtimeconfig.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/bin/Debug/net7.0/Domain.Core.dll
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/bin/Debug/net7.0/Domain.Core.pdb
+/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.csproj.AssemblyReference.cache
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.AssemblyInfoInputs.cache
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.AssemblyInfo.cs
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.csproj.CoreCompileInputs.cache
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.sourcelink.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.dll
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/refint/Domain.Core.dll
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Domain.Core/obj/Debug/net7.0/Domain.Core.pdb

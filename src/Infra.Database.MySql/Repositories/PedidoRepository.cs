@@ -21,7 +21,7 @@ public class PedidoRepository : IPedidoRepository
 
     public IEnumerable<Pedido> ObtemPedidos()
     {
-        var pedidos = _context.Pedidos.AsNoTracking().AsEnumerable();
+        var pedidos = _context.Pedidos.Include(p => p.Cliente).Include(p => p.ItensPedido).Include("ItensPedido.Produto").ToList();
         return _mapper.Map<IEnumerable<Pedido>>(pedidos);
     }
 

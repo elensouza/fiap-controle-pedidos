@@ -159,14 +159,13 @@
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.csproj.CoreCompileInputs.cache
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.MvcApplicationPartsAssemblyInfo.cs
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.MvcApplicationPartsAssemblyInfo.cache
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.sourcelink.json
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets.build.json
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets.development.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets/msbuild.Interface.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets/msbuild.build.Interface.WebApi.props
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Interface.WebApi.props
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Interface.WebApi.props
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets.build.json
+/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets.development.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/scopedcss/bundle/Interface.WebApi.styles.css
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.csproj.CopyComplete
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.dll

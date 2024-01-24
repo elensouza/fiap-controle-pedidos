@@ -44,7 +44,6 @@
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/obj/Debug/net7.0/Infra.Database.MySql.AssemblyInfoInputs.cache
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/obj/Debug/net7.0/Infra.Database.MySql.AssemblyInfo.cs
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/obj/Debug/net7.0/Infra.Database.MySql.csproj.CoreCompileInputs.cache
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/obj/Debug/net7.0/Infra.Database.MySql.sourcelink.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/obj/Debug/net7.0/Infra.Database.MySql.csproj.CopyComplete
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/obj/Debug/net7.0/Infra.Database.MySql.dll
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/obj/Debug/net7.0/refint/Infra.Database.MySql.dll
