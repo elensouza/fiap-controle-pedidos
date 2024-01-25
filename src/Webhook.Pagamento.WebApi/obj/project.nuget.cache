@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "uBZ5GTKyvJ9o+wIjpMbjnJvqQXTomCQ8uqoDjxp9Pi4UXSt6SRFzfhhwI7Eq4Jy+iFRtZktJjCq+y00mBaeaog==",
+  "success": true,
+  "projectFilePath": "/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Webhook.Pagamento.WebApi/Webhook.Pagamento.WebApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/elensouza/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
+    "/Users/elensouza/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/elensouza/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/elensouza/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/elensouza/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/elensouza/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/elensouza/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

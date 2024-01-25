@@ -5,3 +5,8 @@
 ./binlog.000008
 ./binlog.000009
 ./binlog.000010
+<<<<<<< HEAD
+=======
+./binlog.000011
+./binlog.000012
+>>>>>>> bb2eb8e (wip poc retorno mockado)

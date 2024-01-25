@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ts57LZdgzJjNS9q05c9+2WUH2R71OgbX5yNA8n6w+9w=",
+  "Source": "Webhook.Pagamento.WebApi",
+  "BasePath": "_content/Webhook.Pagamento.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
