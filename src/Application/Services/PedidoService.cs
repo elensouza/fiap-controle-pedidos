@@ -28,4 +28,9 @@ public class PedidoService : IPedidoService
     {
         return _pedidoRepository.CheckoutPedido(pedido);
     }
+
+    public void AtualizaPedidoStatus(Guid id, StatusPedido status)
+    {
+        _pedidoRepository.AtualizaPedidoStatus(id, status);
+    }
 }
