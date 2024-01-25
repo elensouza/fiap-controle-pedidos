@@ -40,4 +40,14 @@ public class PedidoRepository : IPedidoRepository
         _context.ChangeTracker.Clear();
         return _mapper.Map<Pedido>(pedidoInfra).Id;
     }
+
+     public IEnumerable<Pedido> ObtemPedidosOrdenados()
+    {
+       var pedidos = _context.Pedidos.Include(p => p.Cliente).Include(p => p.ItensPedido).Include("ItensPedido.Produto")
+            .Where(p => p.Status !=  StatusPedido.Finalizado)
+            .OrderBy(p => p.Status)
+            .ThenBy(p => p.DataPedido);
+
+        return _mapper.Map<IEnumerable<Pedido>>(pedidos);
+    }
 }

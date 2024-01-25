@@ -1,4 +1,5 @@
-﻿using Application.Dtos;
+﻿using System.Diagnostics;
+using Application.Dtos;
 using AutoMapper;
 using Core.Entities;
 using Core.Enums;
@@ -19,14 +20,14 @@ public class PedidoController : ControllerBase
         _mapper = mapper;
         _pedidoService = pedidoService;
     }
-    
+
     [HttpGet]
     public ActionResult<IEnumerable<PedidoDto>> GetPedidos()
     {
         var pedidos = _pedidoService.ObtemPedidos();
-        if (!pedidos.Any()) 
+        if (!pedidos.Any())
             return NotFound();
-        
+
         return Ok(pedidos);
     }
 
@@ -34,16 +35,26 @@ public class PedidoController : ControllerBase
     public ActionResult<IEnumerable<PedidoDto>> GetPedidosPorStatus(StatusPedido status)
     {
         var pedidos = _pedidoService.ObtemPedidosPorStatus(status);
-        if (!pedidos.Any()) 
+        if (!pedidos.Any())
             return NotFound();
-        
+
         return Ok(pedidos);
     }
 
     [HttpPost]
-    public ActionResult<Guid> CheckouPedido(Pedido pedido)
+    public ActionResult<Guid> CheckoutPedido(Pedido pedido)
     {
         var id = _pedidoService.CheckoutPedido(pedido);
         return Ok(id);
+    }
+
+    [HttpGet("PedidosOrdenados")]
+    public ActionResult<IEnumerable<PedidoDto>> GetPedidosOrdenados()
+    {
+        var pedidos = _pedidoService.ObtemPedidosOrdenados();
+        if (!pedidos.Any())
+            return NotFound();
+
+        return Ok(pedidos);
     }
 }
