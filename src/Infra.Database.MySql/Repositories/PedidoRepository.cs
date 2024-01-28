@@ -59,18 +59,18 @@ public class PedidoRepository : IPedidoRepository
         _context.SaveChanges();
         _context.ChangeTracker.Clear();
     }
-    
+
     public Pagamento ObtemPagamentoPorId(Guid id)
     {   
         var pedido = _context.Pagamento.AsNoTracking().FirstOrDefault(x => x.Id == id);
         return _mapper.Map<Pagamento>(pedido);
     }
 
-    public void UpdatePagamento(Guid id, int status)
+    public void UpdatePagamento(Guid id, StatusPagamento status)
     {
         var pagamento = ObtemPagamentoPorId(id) ?? throw new Exception("Pagamento não encontrado");
         var pagamentoInfra = _mapper.Map<DataModels.Pagamento>(pagamento);
-        pagamentoInfra.Status = (StatusPagamento)status;
+        pagamentoInfra.Status = status;
 
         _context.Entry(pagamentoInfra).Property(x => x.Status).IsModified = true;
         _context.SaveChanges();

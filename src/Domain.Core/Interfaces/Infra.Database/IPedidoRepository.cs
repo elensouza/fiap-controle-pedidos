@@ -9,5 +9,5 @@ public interface IPedidoRepository
     IEnumerable<Pedido> ObtemPedidosPorStatus(StatusPedido statusPedido);
     Guid CheckoutPedido(Pedido pedido);
     void AtualizaPedidoStatus(Guid id, StatusPedido status);
-    void UpdatePagamento(Guid id, int status);
+    void UpdatePagamento(Guid id, StatusPagamento status);
 }

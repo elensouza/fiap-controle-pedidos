@@ -49,17 +49,15 @@ public class PedidoController : ControllerBase
     }
 
     [HttpPut("{id:Guid}/{status:int}")]
-    public IActionResult AtualizaStatusPedio(Guid id, StatusPedido status)
+    public IActionResult AtualizaStatusPedido(Guid id, StatusPedido status)
     {
         _pedidoService.AtualizaPedidoStatus(id, status);
         
         return Ok();
     }
 
-    [HttpPost("Update-Pagamento")]
-    public ActionResult<Guid> UpdatePagamento(
-        [FromQuery(Name = "id")] Guid id,
-        [FromQuery(Name = "status")] int status)
+    [HttpPut("Update-Pagamento/{id:Guid}/{status:int}")]
+    public ActionResult<Guid> UpdatePagamento(Guid id, StatusPagamento status)
     {
         _pedidoService.UpdatePagamento(id, status);
         return Ok();
