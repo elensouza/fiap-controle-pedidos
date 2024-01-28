@@ -11,4 +11,6 @@ public sealed record Pedido
     public StatusPedido Status { get; set; }
     public Cliente? Cliente { get; set; }
     public IEnumerable<ItemPedido> ItensPedido { get; set; }
+    public Guid PagamentoId { get; set; }
+    public Pagamento? Pagamento { get; set; }
 }

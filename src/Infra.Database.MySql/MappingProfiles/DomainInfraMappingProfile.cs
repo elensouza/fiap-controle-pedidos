@@ -14,6 +14,7 @@ public class DomainInfraMappingProfile : Profile
         CreateMap<DataModels.Produto, Core.Entities.Produto>()
             .ForMember((dest) => dest.Categoria, opt => opt.MapFrom(src => (CategoriaProduto)src.Categoria));
         CreateMap<Core.Entities.Pedido, DataModels.Pedido>().ReverseMap();
+        CreateMap<Core.Entities.Pagamento, DataModels.Pagamento>().ReverseMap();
         CreateMap<Core.Entities.ItemPedido, DataModels.ItemPedido>().ReverseMap();
     }
 

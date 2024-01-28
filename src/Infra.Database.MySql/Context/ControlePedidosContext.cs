@@ -13,4 +13,5 @@ public class ControlePedidosContext : DbContext
     public DbSet<ItemPedido> ItensPedido { get; set; }
     public DbSet<Cliente> Clientes { get; set; }
     public DbSet<Produto> Produtos { get; set; }
+    public DbSet<Pagamento> Pagamento { get; set; }
 }

@@ -56,4 +56,12 @@ public class PedidoController : ControllerBase
         return Ok();
     }
 
+    [HttpPost("Update-Pagamento")]
+    public ActionResult<Guid> UpdatePagamento(
+        [FromQuery(Name = "id")] Guid id,
+        [FromQuery(Name = "status")] int status)
+    {
+        _pedidoService.UpdatePagamento(id, status);
+        return Ok();
+    }
 }

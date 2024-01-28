@@ -2,7 +2,7 @@
 
 namespace Core.Entities;
 
-public sealed record  Pedido
+public sealed record Pedido
 {
     public Guid Id { get; set; }
     public Guid ClienteId { get; set; }
@@ -11,4 +11,6 @@ public sealed record  Pedido
     public StatusPedido Status { get; set; }
     public Cliente? Cliente { get; set; }
     public IEnumerable<ItemPedido> ItensPedido { get; set; }
+    public Guid PagamentoId = Guid.NewGuid();
+    public Pagamento? Pagamento { get; set; }
 }
