@@ -47,4 +47,13 @@ public class PedidoController : ControllerBase
         var id = _pedidoService.CheckoutPedido(pedido);
         return Ok(id);
     }
+
+    [HttpPut("{id:Guid}/{status:int}")]
+    public IActionResult AtualizaStatusPedio(Guid id, StatusPedido status)
+    {
+        _pedidoService.AtualizaPedidoStatus(id, status);
+        
+        return Ok();
+    }
+
 }

@@ -44,4 +44,17 @@ public class PedidoRepository : IPedidoRepository
         _context.ChangeTracker.Clear();
         return _mapper.Map<Pedido>(pedidoInfra).Id;
     }
+
+    public void AtualizaPedidoStatus(Guid id, StatusPedido status)
+    {
+        var pedidoContext = _context.Pedidos.AsNoTracking().FirstOrDefault(x => x.Id == id);
+        if (pedidoContext == null)
+            throw new Exception("Pedido não encontrado");
+        
+        var pedidoInfra = _mapper.Map<DataModels.Pedido>(pedidoContext);
+        pedidoInfra.Status = status;
+        _context.Entry(pedidoInfra).Property(x => x.Status).IsModified = true;
+        _context.SaveChanges();
+        _context.ChangeTracker.Clear();
+    }
 }

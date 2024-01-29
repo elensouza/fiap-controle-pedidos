@@ -115,6 +115,12 @@
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-soft-food/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.pdb
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-soft-food/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.genruntimeconfig.cache
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-soft-food/src/Interface.WebApi/obj/Debug/net7.0/ref/Interface.WebApi.dll
+<<<<<<< HEAD
+=======
+/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.dll
+/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/refint/Interface.WebApi.dll
+/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.pdb
+>>>>>>> aa09b1b (adiciona alteracao status pedido)
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/bin/Debug/net7.0/appsettings.Development.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/bin/Debug/net7.0/appsettings.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/bin/Debug/net7.0/Interface.WebApi
@@ -168,8 +174,5 @@
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/staticwebassets.development.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/scopedcss/bundle/Interface.WebApi.styles.css
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.csproj.CopyComplete
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.dll
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/refint/Interface.WebApi.dll
-/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.pdb
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/Interface.WebApi.genruntimeconfig.cache
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Interface.WebApi/obj/Debug/net7.0/ref/Interface.WebApi.dll

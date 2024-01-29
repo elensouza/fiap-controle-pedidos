@@ -29,11 +29,14 @@
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-soft-food/src/Application/obj/Debug/net7.0/refint/Application.dll
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-soft-food/src/Application/obj/Debug/net7.0/Application.pdb
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-soft-food/src/Application/obj/Debug/net7.0/ref/Application.dll
+<<<<<<< HEAD
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/bin/Debug/net7.0/Application.deps.json
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/bin/Debug/net7.0/Application.dll
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/bin/Debug/net7.0/Application.pdb
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/bin/Debug/net7.0/Domain.Core.dll
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/bin/Debug/net7.0/Domain.Core.pdb
+=======
+>>>>>>> aa09b1b (adiciona alteracao status pedido)
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/obj/Debug/net7.0/Application.GeneratedMSBuildEditorConfig.editorconfig
 /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Application/obj/Debug/net7.0/Application.AssemblyInfoInputs.cache
