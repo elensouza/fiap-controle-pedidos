@@ -28,9 +28,4 @@ public class PedidoService : IPedidoService
     {
         return _pedidoRepository.CheckoutPedido(pedido);
     }
-
-   public  IEnumerable<Pedido> ObtemPedidosOrdenados()
-   {
-    return _pedidoRepository.ObtemPedidosOrdenados();
-   }
 }

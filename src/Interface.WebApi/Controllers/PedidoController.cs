@@ -47,14 +47,4 @@ public class PedidoController : ControllerBase
         var id = _pedidoService.CheckoutPedido(pedido);
         return Ok(id);
     }
-
-    [HttpGet("PedidosOrdenados")]
-    public ActionResult<IEnumerable<PedidoDto>> GetPedidosOrdenados()
-    {
-        var pedidos = _pedidoService.ObtemPedidosOrdenados();
-        if (!pedidos.Any())
-            return NotFound();
-
-        return Ok(pedidos);
-    }
 }

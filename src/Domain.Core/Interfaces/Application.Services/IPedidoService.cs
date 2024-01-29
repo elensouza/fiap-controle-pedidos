@@ -8,6 +8,5 @@ public interface IPedidoService
     IEnumerable<Pedido> ObtemPedidos();
     IEnumerable<Pedido> ObtemPedidosPorStatus(StatusPedido statusPedido);
     Guid CheckoutPedido(Pedido pedido);
-    IEnumerable<Pedido> ObtemPedidosOrdenados();
 
 }
