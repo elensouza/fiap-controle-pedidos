@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NPW82M5sOBQMJEi4MP1lUIP7YShNDuYOGv5TV/6iYkuc1NcJFuQM38ceq4s7nSO4OV+qlIJaaf6761X6P1Vflw==",
+  "dgSpecHash": "B8rxJzRP5b2PrOiCQktdvYtBk9a+8WO41WXAEXcush2xa/FGcSYsWZszIHhtrSxuKElDsXJ6e+DjYc3mQYVzvQ==",
   "success": true,
   "projectFilePath": "/Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/Infra.Database.MySql.csproj",
   "expectedPackageFiles": [

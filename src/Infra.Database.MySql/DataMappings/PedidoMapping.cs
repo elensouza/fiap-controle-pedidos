@@ -8,11 +8,22 @@ public class PedidoMapping : IEntityTypeConfiguration<Pedido>
 {
     public void Configure(EntityTypeBuilder<Pedido> builder)
     {
+        // builder.ToTable("Pedidos");
+        // builder.HasKey(p => p.Id);
+        // builder.Property(p => p.DataPedido).IsRequired();
+        // builder.Property(p => p.Status).IsRequired();
+        // builder.Property(p => p.ItensPedido).IsRequired();
+        // builder.Property(p => p.ClienteId);
+
+        // builder.HasOne(p => p.Cliente)
+        //    .WithMany()
+        //    .HasForeignKey(p => p.ClienteId)
+        //    .OnDelete(DeleteBehavior.Restrict); 
+
         builder.ToTable("Pedidos");
-        builder.HasKey(p => p.Id);
-        builder.Property(p => p.DataPedido).IsRequired();
-        builder.Property(p => p.Status).IsRequired();
-        builder.Property(p => p.ItensPedido).IsRequired();
-        builder.Property(p => p.Cliente);
-    }
+    builder.HasKey(p => p.Id);
+    builder.Property(p => p.DataPedido).IsRequired();
+    builder.Property(p => p.Status).IsRequired();
+    builder.Property(p => p.ClienteId).IsRequired();
 }
+    }

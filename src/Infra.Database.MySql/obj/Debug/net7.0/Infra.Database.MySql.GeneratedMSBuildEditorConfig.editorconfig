@@ -9,5 +9,3 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Infra.Database.MySql
 build_property.ProjectDir = /Users/elensouza/Developer/Projects/Estudos/Pos-Graduacao/fiap-controle-pedidos/src/Infra.Database.MySql/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
