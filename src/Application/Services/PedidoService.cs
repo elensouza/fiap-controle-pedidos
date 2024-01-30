@@ -33,4 +33,9 @@ public class PedidoService : IPedidoService
     {
         _pedidoRepository.AtualizaPedidoStatus(id, status);
     }
+
+    public void UpdatePagamento(Guid id, StatusPagamento status)
+    {
+        _pedidoRepository.UpdatePagamento(id, status);
+    }
 }
